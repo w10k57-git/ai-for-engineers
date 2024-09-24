@@ -1,10 +1,19 @@
-# Artificial Inventiveness for Engineers
+# Artificial Intelligence for Engineers
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+This repository contains course materials for AI for engineers course (W10IME-SD0033S). 
 
-Course materials for AI for engineers course (W10IME-SD0033S)
+## Installation
+For installation, an `Anaconda Distribution` or `Miniconda` is required. Once downloaded, start with creating a virtual environment using:
+
+```Bash
+conda env create --name ai_eng_py310 -f environment.yml
+```
+
+Before working on the code, make sure to activate the environment using:
+
+```Bash
+conda activate ai_eng_py310
+```
 
 ## Project Organization
 
@@ -39,22 +48,9 @@ Course materials for AI for engineers course (W10IME-SD0033S)
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── ai_eng   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes ai_eng a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
+└── src                <- Source code for use in this project.
+    |
+    └── ai_eng         <- Package files
 ```
 
 --------

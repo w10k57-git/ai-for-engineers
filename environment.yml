@@ -17,4 +17,5 @@ dependencies:
   - scikit-learn
   - pip:
     - python-dotenv
+    - tensorflow
     - -e .

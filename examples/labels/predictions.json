@@ -1,0 +1,102 @@
+[
+    {
+        "task": "Prepare a report on project progress",
+        "category": "work",
+        "prediction": "work"
+    },
+    {
+        "task": "Fix the leaky faucet in the bathroom",
+        "category": "home",
+        "prediction": "home"
+    },
+    {
+        "task": "Buy groceries for the week",
+        "category": "errands",
+        "prediction": "errands"
+    },
+    {
+        "task": "Plan a family movie night",
+        "category": "general",
+        "prediction": "home"
+    },
+    {
+        "task": "Reply to client emails and schedule a follow-up meeting",
+        "category": "work",
+        "prediction": "work"
+    },
+    {
+        "task": "Clean out the garage and sort items for donation",
+        "category": "home",
+        "prediction": "home"
+    },
+    {
+        "task": "Pick up a prescription from the pharmacy and drop off a package at the post office",
+        "category": "errands",
+        "prediction": "errands"
+    },
+    {
+        "task": "Brainstorm ideas for a friend's birthday party",
+        "category": "general",
+        "prediction": "general"
+    },
+    {
+        "task": "Update the company's website content and troubleshoot layout issues",
+        "category": "work",
+        "prediction": "work"
+    },
+    {
+        "task": "Assemble new furniture and rearrange the living room",
+        "category": "home",
+        "prediction": "home"
+    },
+    {
+        "task": "Return a defective product to the store and exchange it",
+        "category": "errands",
+        "prediction": "errands"
+    },
+    {
+        "task": "Read a book on self-improvement or learn a new skill",
+        "category": "general",
+        "prediction": "general"
+    },
+    {
+        "task": "Prepare a presentation and conduct a team briefing on project milestones",
+        "category": "work",
+        "prediction": "work"
+    },
+    {
+        "task": "Organize a surprise anniversary celebration at home",
+        "category": "home",
+        "prediction": "home"
+    },
+    {
+        "task": "Drop off dry cleaning, pick up kids from school, and meet a friend for coffee",
+        "category": "errands",
+        "prediction": "errands"
+    },
+    {
+        "task": "Research recipes and cook an elaborate meal for a special occasion",
+        "category": "general",
+        "prediction": "home"
+    },
+    {
+        "task": "Audit departmental processes and propose efficiency improvements",
+        "category": "work",
+        "prediction": "work"
+    },
+    {
+        "task": "Plant a garden and repair the backyard fence",
+        "category": "home",
+        "prediction": "home"
+    },
+    {
+        "task": "Refuel the car, check tire pressure, and buy snacks for a road trip",
+        "category": "errands",
+        "prediction": "errands"
+    },
+    {
+        "task": "Attend a community workshop or participate in a hobby class",
+        "category": "general",
+        "prediction": "general"
+    }
+]

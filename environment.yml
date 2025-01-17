@@ -15,7 +15,12 @@ dependencies:
   - numpy
   - pandas
   - scikit-learn
+  - scipy
   - pip:
     - python-dotenv
+    - openai
+    - ollama
+    - pydantic
+    - instructor
     - tensorflow
     - -e .

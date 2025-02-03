@@ -25,6 +25,8 @@ class OpenAIService:
                 base_url="https://api.groq.com/openai/v1",
                 api_key=os.environ.get("GROQ_API_KEY")
             )
+        if provider == "openai":
+            return OpenAI()
         raise ValueError(f"Invalid provider: {provider}")
 
     def create_chat_completion(

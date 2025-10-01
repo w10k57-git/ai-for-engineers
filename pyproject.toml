@@ -1,33 +1,32 @@
-[build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
-
 [project]
-name = "ai_eng"
-version = "0.0.1"
+name = "ai-for-engineers"
+version = "0.1.0"
 description = "Course materials for AI for engineers course (W10IME-SD0033S)"
 authors = [
-  { name = "Marek Piotr Mysior" },
+    { name = "Marek Piotr Mysior" },
 ]
-
 readme = "README.md"
-classifiers = [
-    "Programming Language :: Python :: 3",
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "openai>=2.0.0",
+    "pandas>=2.3.3",
+    "pydantic>=2.11.9",
+    "pydantic-settings>=2.11.0",
+    "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.2",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.20.0",
 ]
-requires-python = "~=3.10"
 
-[tool.flit.module]
-name = "ai_eng"
 
-[tool.flit.sdist]
-include = ["src/"]
+[build-system]
+requires = ["uv_build>=0.8.13,<0.9.0"]
+build-backend = "uv_build"
 
-[tool.black]
-line-length = 99
-include = '\.pyi?$'
-exclude = '''
-/(
-    \.git
-  | \.venv
-)/
-'''
+[tool.uv.build-backend]
+module-name = "src"
+module-root = ""
